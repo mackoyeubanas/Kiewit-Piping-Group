@@ -1,0 +1,21 @@
+nav > img {
+	height: auto;
+	width: 50px;
+	border-radius: 50px;
+}
+
+.card > img {
+	margin: 10px;
+	height: auto;
+	width: auto;
+	border-radius: 10px;
+}
+
+#piping {
+	margin-top: 80px;
+}
+
+#partner {
+	height: auto;
+	width: 50px;
+}

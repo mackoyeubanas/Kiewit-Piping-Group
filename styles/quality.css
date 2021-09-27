@@ -1,0 +1,31 @@
+nav > img {
+	height: auto;
+	width: 50px;
+	border-radius: 50px;
+}
+
+#reference {
+	margin-top: 60px;
+}
+
+.view-height {
+	height:100vh; /*viewport height*/
+}
+
+.row-height {
+	height:20vh;
+}
+
+.col-height {
+	height:5vh;
+}
+
+.col-width {
+	width: 5vh;
+}
+
+body {
+  position: relative;
+}
+
+

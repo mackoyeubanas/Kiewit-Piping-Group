@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> <!-- the way of browser to read our meta tags and our html tags -->
+
+	<!-- meta viewport - way to have a mobile responsive website -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Piping Group Reference</title>
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/4de2b5cbee.js" crossorigin="anonymous"></script>
+
+	<!-- external css -->
+	<link rel="stylesheet" href="./styles/homepage.css">
+</head>
+<body>
+
+<!-- 	<h1>Bootstrap Introduction and its tools and components we can use for a much faster way of layouting our website.</h1>
+	<div class="alert alert-primary" role="alert">
+		A simple primary alert—check it out!
+	</div>
+	<button type="button" class="btn btn-primary">Primary</button>
+	<button type="button" class="btn text-white" id="about-button"> Apply Now </button>
+-->
+
+<!-- Navbar -->
+ 	<!-- 
+ 		lg means - large - desktops monitors, tv
+		md means - medium - tablets
+		sm means - small - mobiles
+
+		bg - background color (dark = black)
+		bg primary - blue
+	-->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"> <img src="./styles/kiewit.png">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 			<!-- 
+ 				mr-auto = margin-right auto - adds a margin on the right side, moving the nav items to the left side of the nav bar
+ 				ml-auto = margin-left auto - adds a margin on the left side, moving the nav items to the right side
+ 				mx-auto = margin x axis auto - adds the margin left and right, moving our nav items to the center
+ 			-->
+ 			<nav class="navbar navbar-light">
+ 				<a class="navbar-brand" href="#">Piping Group Reference</a>
+ 			</nav>
+ 			<ul class="navbar-nav"> 
+ 				<li class="nav-item">
+ 					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+ 				</li>
+ 				<li class="nav-item">
+ 					<a class="nav-link" href="spooling.html">Spool</a>
+ 				</li>
+ 				<li class="nav-item">
+ 					<a class="nav-link" href="quality.html">Quality</a>
+ 				</li>
+ 			</ul>
+ 		</div>
+ 	</nav>
+ 	<!-- End of Navbar -->
+ 	
+ 	<!-- Content -->
+ 	
+ 	<div class="card-deck bg-info" id="piping">
+ 		<div class="card">
+ 			<img src="./reference/pipe.jpg" class="card-img-top" alt="...">
+ 			<div class="card-body">
+ 				<h5 class="card-title">Offshore Pipeline</h5>
+ 				<p class="card-text">
+ 					Offshore pipelines are critical elements of the subsea transportation system for the transportation and delivery of carbon products from the resource sites to end users and markets. The design, construction, and operation of offshore pipelines require elements of risk management to mitigate potential adverse effects from the perspective of technical, business, environmental, and societal factors. The need, scope, requirements, and complexity of risk management have evolved over time in concert with the pipeline industry meeting the challenges for extending application into deepwater environments and ice regimes, and capabilities to achieve more extreme operating conditions (e.g., internal pressure, temperature, and aggressive fluids) and envelopes (e.g., transient, cool down, and restart conditions). To provide context, this chapter briefly explores the history of offshore pipeline engineering and the increasingly important relationship with asset management and risk management principles as the subsea pipeline infrastructure has steadily increased both in capacity and capabilities. The critical importance of supporting evidence-based, decision-making processes by integrating risk management protocols within complex projects, as well as the adverse effects when these factors are not adequately considered, is discussed. The chapter explores the framework elements including project management risk, technical risk in pipeline engineering design with some discussion on the consideration of climate change effects, and operational risk with respect to inspection, monitoring, and integrity assessment and management. The chapter concludes on some thoughts on reducing risk by improving safety culture.</p>
+ 			</div>
+ 		</div>
+ 		<div class="card">
+ 			<img src="./reference/pipeonshore.jpg" class="card-img-top" alt="...">
+ 			<div class="card-body">
+ 				<h5 class="card-title">Onshore Pipeline</h5>
+ 				<p class="card-text">
+ 					Onshore pipeline routes are surveyed by aerial photography and surface mapping, which are performed during the conceptual design phase. The final route is selected to optimize design and construction coupled with being the most cost-effective with minimal environmental impact.</p>
+ 				<h5>Types of Oil and Gas Pipelines</h5>
+ 				<ol>
+ 					<li>
+ 						Petroleum pipelines transport crude oil or natural gas liquids, and there are three main types of petroleum pipelines involved in this process: gathering systems, crude oil pipeline systems, and refined products pipelines systems. The gathering pipeline systems gather the crude oil or natural gas liquid from the production wells. It is then transported with the crude oil pipeline system to a refinery. Once the petroleum is refined into products such as gasoline or kerosene, it is transported via the refined products pipeline systems to storage or distribution stations.
+ 					</li>
+ 					<li>
+ 						Natural gas pipelines transport natural gas from stationary facilities such as gas wells or import/export facilities, and deliver to a variety of locations, such as homes or directly to other export facilities. This process also involves three different types of pipelines: gathering systems, transmission systems, and distribution systems. Similar to the petroleum gathering systems, the natural gas gathering pipeline system gathers the raw material from production wells. It is then transported with large lines of transmission pipelines that move natural gas from facilities to ports, refiners, and cities across the country. Lastly, the distribution systems consist of a network that distributes the product to homes and businesses. The two types of distribution systems are the main distribution line, which are larger lines that move products close to cities, and the service distribution lines, which are smaller lines that connect main lines into homes and businesses.
+ 					</li>
+ 				</ol>
+ 			</div>
+ 		</div>
+ 		<!-- End of Content -->
+
+
+
+ 		<!-- Pre footer -->
+ 		<div class="card-group bg-dark p-4 styles=max-width: 18rem">
+ 			<div class="card" id="footer">
+ 				<img src="./reference/kiewit.png" class="card-img-top w-50">
+ 				<div class="card-body">
+ 					<h5 class="card-title">Danielle Lucas</h5>
+ 					<p class="card-text">
+ 					Piping Manager</p>
+ 					<a href="mailto:https://email.kiewit.com.mcas.ms?subject=Mail from Our Site" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Send email</a>
+ 				</div>
+ 			</div>
+ 			<div class="card">
+ 				<img src="./reference/kiewit.png" class="card-img-top w-50">
+ 				<div class="card-body">
+ 					<h5 class="card-title">Joel Jordan</h5>
+ 					<p class="card-text">Piping Fabrication Lead</p>
+ 					<a href="mailto:https://email.kiewit.com.mcas.ms?subject=Mail from Our Site" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Send email</a>
+ 				</div>
+ 			</div>
+ 			<div class="card">
+ 				<img src="./reference/kiewit.png" class="card-img-top w-50">
+ 				<div class="card-body">
+ 					<h5 class="card-title">Rita Cass</h5>
+ 					<p class="card-text">Piping & Modeling Lead</p>
+ 					<a href="mailto:https://email.kiewit.com.mcas.ms?subject=Mail from Our Site" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Send email</a>
+ 				</div>
+ 			</div>
+ 			<div class="card">
+ 				<img src="./reference/kiewit.png" class="card-img-top w-50">
+ 				<div class="card-body">
+ 					<h5 class="card-title">Abel Cortinas</h5>
+ 					<p class="card-text">Quality Checker</p>
+ 					<a href="mailto:https://email.kiewit.com.mcas.ms?subject=Mail from Our Site" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Send email</a>
+ 				</div>
+ 			</div>
+ 			<div class="card">
+ 				<img src="./reference/kiewit.png" class="card-img-top w-50">
+ 				<div class="card-body">
+ 					<h5 class="card-title">Lisa Guerero</h5>
+ 					<p class="card-text">Quality Checker</p>
+ 					<a href="mailto:https://email.kiewit.com.mcas.ms?subject=Mail from Our Site" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Send email</a>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<!-- End of pre-footer -->
+ 		<!-- Partner -->
+ 	<!-- 	<div class="card bg-dark text-white" id="partner">
+ 			<img src="./reference/cybalink.jfif" class="card-img" alt="...">
+ 			<div class="card-img-overlay">
+ 				<h3 class="card-title text-center text-red">Meet Our Team Partner</h3>
+ 				<img src="">
+ 			</div>
+ 		</div> -->
+
+
+ 		<!-- End of Partner -->
+
+ 		<!-- created -->
+ 		
+ 		<!-- created -->
+
+
+
+ 		<!-- jquery min js -->
+ 		<script src="./styles/bootstrap/js/jquery-3.6.0.min.js"></script>
+
+ 		<!-- popper min js -->
+ 		<script src="./styles/bootstrap/js/popper.min.js"></script>
+
+ 		<!-- Bootstrap js -->
+ 		<script src="./styles/bootstrap/js/bootstrap.min.js"></script>
+ 	</body>
+ 	</html>
